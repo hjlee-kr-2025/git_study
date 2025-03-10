@@ -1,0 +1,30 @@
+버전관리 : git + github
+
+1. pc에 git 이 설치되어있어야 합니다.
+2. git (git-scm.com) 사이트에서 download 후 기본으로 설치하시면 됩니다.
+3. git 실행
+4. user.name, user.email 설정
+5. user.name 명령어
+>git config --global user.name "영문이름"
+6. user.email 명령어
+>git config --global user.email "이메일주소"
+7. user.name과 user.email은 git commit실행시 등록하는 이름으로 사용됩니다.
+8. 새로운 폴더(프로젝트폴더) 를 만들고 git bash에서 만든폴더로 이동하여 git init 명령을 사용합니다.
+==> git에 새로운 저장소를 만드는 행위
+==> 반드시 빈 폴더여야만 합니다.
+
+-- git (작업PC에서)
+1. 작업트리
+  - 우리가 코딩하거나 문서작업을 하는 공간
+  - 작업하는 폴더, 파일이 위치합니다.
+2. 스테이지
+  - 새로생긴 파일이나 수정된 화일을 대기시키는 장소
+  - 작업트리에 있는 대상을 add 명령어를 사용하여 이곳으로 카피합니다.
+3. 저장소
+  - 스테이지에 올려있는 파일만 저장소로 이동할 수 있습니다.
+  - 명령어는 commit 을 사용합니다.
+
+
+
+
+
